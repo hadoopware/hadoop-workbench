@@ -1,9 +1,15 @@
 Hadoop Workbench
 ======================
 
-A feature rich tool to manage BigData applications. It supports following: 
+A feature rich interactive tool to manage __Hadoop Applications__. 
 
-* Abstraction over Hadoop clusters from different distributions
+![Alt text](/doc/hw-screen1.png?raw=true "HW in one screenshot") 
+
+HW supports the following features: 
+
+* Abstraction over Hadoop clusters from different vendors (Hortonworks and Cloudera supported)
+* Flume and Oozie Pipelines visual designer 
+* Interactive visaule configuration, debugging and deployment
 * Intermediate application format with parametrized environment properties
 * Cluster agnostic application deployment
 * Application visual/text editing  
@@ -13,7 +19,11 @@ A feature rich tool to manage BigData applications. It supports following:
 * Role based user authorization
 * Kerberos service layer authentication 
 * Integration with Hortonworks and Cloudera
+* REST API to intergrate with CI/CD toolchain (e.g. Jenkins automatic deployment)
 
+Video demo: [https://youtu.be/HkLPnyn2CqY](https://youtu.be/HkLPnyn2CqY)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HkLPnyn2CqY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 Deployment
@@ -108,5 +118,4 @@ Mandatory properties in `krb5.conf` in case of kerberized cluster:
 URL
 ---
 http://[host]:[port]/hw/
-
 
