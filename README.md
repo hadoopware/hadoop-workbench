@@ -21,9 +21,9 @@ HW supports the following features:
 * Integration with Hortonworks and Cloudera
 * REST API to intergrate with CI/CD toolchain (e.g. Jenkins automatic deployment)
 
-Video demo: [https://youtu.be/HkLPnyn2CqY](https://youtu.be/HkLPnyn2CqY)
+Video demo URL: [https://youtu.be/HkLPnyn2CqY](https://youtu.be/HkLPnyn2CqY)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HkLPnyn2CqY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Demo](http://img.youtube.com/vi/HkLPnyn2CqY/0.jpg)](https://youtu.be/HkLPnyn2CqY)
 
 
 Deployment
